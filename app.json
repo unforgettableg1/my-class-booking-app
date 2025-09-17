@@ -1,0 +1,31 @@
+﻿{
+    "expo":  {
+                 "name":  "my-class-booking-app",
+                 "slug":  "my-class-booking-app",
+                 "version":  "1.0.0",
+                 "orientation":  "portrait",
+                 "icon":  "./assets/icon.png",
+                 "userInterfaceStyle":  "light",
+                 "newArchEnabled":  true,
+                 "splash":  {
+                                "backgroundColor":  "#ffffff",
+                                "resizeMode":  "contain",
+                                "image":  "./assets/splash-icon.png"
+                            },
+                 "ios":  {
+                             "supportsTablet":  true
+                         },
+                 "android":  {
+                                 "adaptiveIcon":  {
+                                                      "foregroundImage":  "./assets/adaptive-icon.png",
+                                                      "backgroundColor":  "#ffffff",
+                                                      "backgroundImage":  "./assets/adaptive-icon-background.png"
+                                                  },
+                                 "edgeToEdgeEnabled":  true,
+                                 "predictiveBackGestureEnabled":  false
+                             },
+                 "web":  {
+                             "favicon":  "./assets/favicon.png"
+                         }
+             }
+}
